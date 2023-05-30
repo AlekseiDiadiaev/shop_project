@@ -1,0 +1,18 @@
+@import "_variables.scss";
+@import "_main.scss";
+@import "_header.scss";
+@import "_sub-header.scss";
+@import "_bag.scss";
+.about-us {
+    padding: 20px 0;
+    & .main-subtitle {
+        margin-top: 50px;
+    }
+    &__text {
+        margin: 30px auto 30px auto;
+        max-width: 800px;
+        color: $text-color-second;
+        font-size: 16px;
+        line-height: 2;
+    }
+}

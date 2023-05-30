@@ -1,0 +1,121 @@
+[
+  {
+  "id": 1,
+  "name": "Aurora Due Bed - Fabric Back",
+  "price": 2000,
+  "img": "./img/aurora-due-bed---fabric-back-poltrona-frau-3.jpg",
+  "company": "Liddy"
+  },
+  {
+  "id": 2,
+  "name": "Bed-in Letto Lago",
+  "price": 1800,
+  "img": "./img/bed-in-letto-lago.jpg",
+  "company": "Liddy"
+  },
+  {
+  "id": 3,
+  "name": "Canasta Two Seater",
+  "price": 1500,
+  "img": "./img/canasta-two-seater.jpg",
+  "company": "Marcos"
+  },
+  {
+  "id": 4,
+  "name": "Cassina Principi Chair",
+  "price": 2200,
+  "img": "./img/cassina-principi-chair.jpg",
+  "company": "Caressa"
+  },
+  {
+  "id": 5,
+  "name": "GranPriz Fritz Hansen",
+  "price": 2500,
+  "img": "./img/GranPrizFritzHansen105White.jpg",
+  "company": "Caressa"
+  },
+  {
+  "id": 6,
+  "name": "Happy Jack Poltrona",
+  "price": 1900,
+  "img": "./img/HappyJackPoltronaFrau8.jpg",
+  "company": "Liddy"
+  },
+  {
+  "id": 7,
+  "name": "HOA Table Lago",
+  "price": 1700,
+  "img": "./img/hoa-table-lago.jpg",
+  "company": "Marcos"
+  },
+  {
+  "id": 8,
+  "name": "Bronzed Oiled Walnut AndTradition",
+  "price": 2300,
+  "img": "./img/in-between-sk12-bronzed-oiled-walnut-andtradition_1.jpg",
+  "company": "Caressa"
+  },
+  {
+  "id": 9,
+  "name": "Kate Baxter 2",
+  "price": 2100,
+  "img": "./img/kate-baxter-2.jpg",
+  "company": "Liddy"
+  },
+  {
+  "id": 10,
+  "name": "Maralunga 40",
+  "price": 2400,
+  "img": "./img/Maralunga40Cassina1.jpg",
+  "company": "Caressa"
+  },
+  {
+  "id": 11,
+  "name": "Moncloud Sofa",
+  "price": 2600,
+  "img": "./img/moncloud-sofa-1-cassina.jpg",
+  "company": "Caressa"
+  },
+  {
+  "id": 12,
+  "name": "Poltrona Frau Aurora",
+  "price": 1800,
+  "img": "./img/PoltronaFrauAuroraTreL.170cmSC233.jpg",
+  "company": "Liddy"
+  },
+  {
+  "id": 13,
+  "name": "Brown Ottowa Fritz Hansen",
+  "price": 2200,
+  "img": "./img/SuperEllipticalTablesB611BrownOttowaFritzHansen.jpg",
+  "company": "Caressa"
+  },
+  {
+  "id": 14,
+  "name": "Tamotobed Hay",
+  "price": 1600,
+  "img": "./img/tamotobedhay.jpg",
+  "company": "Liddy"
+  },
+  {
+  "id": 15,
+  "name": "Venice Mat Chair",
+  "price": 2000,
+  "img": "./img/venice-mat-chair-1-black-kartell.jpg",
+  "company": "Liddy"
+  },
+  {
+  "id": 16,
+  "name": "Vitra HAL Set",
+  "price": 1900,
+  "img": "./img/vitra-hal-re-set-4.jpg",
+  "company": "Ikea"
+  },
+  {
+  "id": 17,
+  "name": "Wiggle Vitra",
+  "price": 1700,
+  "img": "./img/wiggle_vitra.jpg",
+  "company": "Ikea"
+  }
+  ]

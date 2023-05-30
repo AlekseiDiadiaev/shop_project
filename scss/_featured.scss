@@ -1,0 +1,22 @@
+.featured {
+    padding: 70px 0;
+    @media (max-width: 575.98px) {
+        padding: 70px 0 30px 0;
+    }
+    & .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__all-btn{
+        margin: 20px auto 0 auto;
+    }
+}
+
+.cards-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px
+}
+

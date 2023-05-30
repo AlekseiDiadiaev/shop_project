@@ -1,0 +1,45 @@
+.promo {
+    background: url(../img/promo-bg.jpg) top 40% center/cover no-repeat;
+    max-height: 700px;
+    color: $text-color-light;
+    padding: 15px 0 200px 0;
+    @media (max-width: 575.98px) {
+        padding: 15px 0 100px 0;
+    }
+    &__title{
+        margin-top: 200px;
+        font-family: 'Kaushan Script', italic;
+        font-size: 70px;
+        text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+        0px -4px 10px rgba(255,255,255,0.3);
+        @media (max-width: 575.98px) {
+            margin-top: 100px;
+            font-size: 45px;
+        }
+    }
+    &__subtitle{
+        margin-top: 10px;
+        font-size: 30px;
+        text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+        0px -4px 10px rgba(255,255,255,0.3);
+        @media (max-width: 575.98px) {
+            font-size: 20px;
+        }
+    }
+    &__show-btn{
+        display: inline-block;
+        margin-top: 10px;
+        padding: 6px;
+        font-weight: 500;
+        color: $text-color-light;
+        border-radius: 3px;
+        border: 1px solid $text-color-light;
+        transition: all 0.3s;
+        @media (hover: hover) {
+            &:hover{
+                color: $text-color-dark;
+                background-color: $text-color-light;
+            }
+        }
+    }
+}

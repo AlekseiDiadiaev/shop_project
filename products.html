@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="./css/reset.css">
+    <link rel="stylesheet" href="./css/products.css">
+    <title>Task-2.8</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header header_second">
+            <nav class="nav nav_second">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./products.html">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./about.html">About</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="./index.html" class="header__logo">comfy</a>
+            <div class="header__cart-wrapper">
+                <button class="header__cart-btn">
+                    <img src="./ico/cart.png" alt="Shopping cart">
+                </button>
+            </div>
+        </header>
+    </div>
+    <section class="sub-header">
+        <div class="container">
+            <h1 class="sub-header__title">Home / Products</h1>
+        </div>
+    </section>
+    <main class="products">
+        <div class="container">
+            <aside class="filters">
+                <input 
+                    type="text" 
+                    class="filters__search"
+                    id="search-input" 
+                    name="search-input"
+                    placeholder="Search...">
+                <div class="filters__companies">
+                    <div class="filters__companies-title">Company</div>
+                    <ul class="filters__companies-list">
+                        <li class="filters__companies-item">
+                            <button>Ikea</button>
+                        </li>
+                        <li class="filters__companies-item">
+                            <button>Ikea</button>
+                        </li>
+                        <li class="filters__companies-item">
+                            <button>Ikea</button>
+                        </li>
+                        <li class="filters__companies-item">
+                            <button>Ikea</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="filters__price">
+                    <div class="filters__price-title">Price</div>
+                    <input 
+                            type="range" 
+                            min="0" 
+                            max="100"
+                            value="0" 
+                            name="range"
+                            id="price-range-input">
+                    <div class="filters__price-value"></div>
+                </div>
+            </aside>
+            <div class="products__cards-wrapper cards-wrapper">
+            </div>  
+        </div> 
+    </main>
+    <section class="bag">
+        <button class="bag__close"></button>
+        <h3 class="bag__title">You Bag</h3>
+        <div class="bag__cards-wrapper">
+            <div class="bag-card">
+                <div class="bag-card__img">
+                    <img src="./img/GranPrizFritzHansen105White.jpg" alt="Furniture">
+                </div>
+                <div class="bag-card__descr">
+                    <div class="big-card__descr-wrapper">
+                        <div class="bag-card__name">Title</div>
+                        <div class="bag-card__price">$80</div>
+                    </div>
+                    <button class="bag-card__remove">remove</button>
+                </div>
+                <div class="bag-card__count">
+                    <button class="bag-card__more-btn">></button>
+                    <div class="bag-card__counter">10</div>
+                    <button class="bag-card__less-btn">></button>
+                </div>
+            </div>
+        </div>
+        <div class="bag__total-price bag__title">Total: $120</div>
+        <button class="bag__submit btn">CHECKOUT</button>
+    </section>
+    <div class="overlay"></div>
+    <script src="./js/service.js"></script> 
+    <script src="./js/main.js"></script> 
+    <script src="./js/products.js"></script> 
+</body>
+</html>

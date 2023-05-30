@@ -1,0 +1,13 @@
+.sub-header{
+    height: 200px;
+    background-color: $sub-header-color;
+    display: flex;
+    align-items: center;
+    &__title{
+        display: block;
+        text-align: start;
+        font-size: 40px;
+        color: $text-color-second;
+        font-weight: 500;
+    }
+}

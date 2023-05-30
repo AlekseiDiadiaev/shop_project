@@ -1,0 +1,25 @@
+@import "_variables.scss";
+@import "_main.scss";
+@import "_header.scss";
+@import "_sub-header.scss";
+@import "_card.scss";
+@import "_filters.scss";
+@import "_bag.scss";
+
+.products {
+    padding: 40px 0;
+    & .container {
+        display: grid;
+        grid-template-columns: 200px auto;
+        @media (max-width: 575.98px) {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px
+}

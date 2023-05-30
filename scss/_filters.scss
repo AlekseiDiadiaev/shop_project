@@ -1,0 +1,43 @@
+.filters{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    @media (max-width: 575.98px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    &__search{
+        background-color: $sub-header-color;
+        width: 100%;
+        height: 26px;
+        border-radius: 4px;
+        padding: 4px;
+    }
+
+    &__companies{
+        &-title{
+            font-size: 16px;
+            font-weight: 500;
+        }
+        &-item{
+            margin-top: 15px;
+            padding-left: 15px ;
+            & button {
+                color: $text-color-second;
+            }
+        }
+    }
+    &__price{
+        &-title{
+            font-size: 16px;
+            font-weight: 500;
+        }
+        &-value{
+            color: $text-color-second;
+            font-weight: 500;
+        }   
+    }
+}

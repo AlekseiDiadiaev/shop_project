@@ -1,0 +1,63 @@
+.header{
+    height: 50px;
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    justify-content: space-between;
+    @media (max-width: 767.98px) {
+        grid-template-columns: 80%  20%;
+    }
+    &__logo{
+        color: $text-color-dark;
+        cursor: pointer;
+        font-family: 'Kaushan Script', italic;
+        font-size: 40px;
+        text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+        0px -4px 10px rgba(255,255,255,0.3);
+        @media (max-width: 767.98px) {
+            display: none;
+        }
+    }
+    &__cart-wrapper{
+        padding-top: 10px;
+        display: flex;
+        justify-content: end;
+    }
+
+    &__cart-btn img{
+        width: 33px;
+        height: 33px;
+    }
+    &_second{
+        margin: 15px 0;
+    }
+
+}
+
+.nav {
+    height: 100%;
+    &__list{
+        height: 100%;
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        @media (max-width: 767.98px) {
+            gap: 15px;
+        }
+        @media (max-width: 575.98px) {
+            gap: 5px;
+        }
+    }
+    &__item {
+        font-size: 18px;
+        @media  (max-width: 575.98px) {
+            font-size: 16px;
+        }
+    }
+    &__item a{
+        color: #fff;
+    }
+    &_second a {
+        color: $text-color-dark;
+    }
+    
+}
