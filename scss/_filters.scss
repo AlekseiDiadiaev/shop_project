@@ -25,8 +25,11 @@
         &-item{
             margin-top: 15px;
             padding-left: 15px ;
-            & button {
-                color: $text-color-second;
+            color: $text-color-second;
+            cursor: pointer;
+            &_active{
+                font-weight: 500;
+                color: $text-color-dark;
             }
         }
     }
